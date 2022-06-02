@@ -1,4 +1,4 @@
-# Vite + Prettier + ESlint + Jest
+# Vite + Prettier + ESlint + Vitest
 
 Welcome to my Vite template for React 😃. At the moment, I'm still improving the
 template over time, adding a few more things that make it easier to develop 🚀.
@@ -9,7 +9,8 @@ template over time, adding a few more things that make it easier to develop 🚀
 - Prettier
 - ESLint
 - Axios
-- Jest
+- Vitest (Vite's Super Testing Framework)
+- Styled-Components
 
 ---
 
@@ -18,6 +19,14 @@ template over time, adding a few more things that make it easier to develop 🚀
 It will help you format your code as you develop. The default file that comes
 with the template is to my liking, but you are free to change it to your
 own.😎👍🏻
+
+> If you have the Prettier extension installed. To get the prettier settings
+> correct, create a folder at the root of your project called `.vscode` and
+> create a `settings.json` file with the following configuration check:
+
+```json
+  "prettier.configPath": "./.prettierrc.js",
+```
 
 ### **ESLint**
 
@@ -34,12 +43,21 @@ It is an "improvement" of the browser's Fetch API. It brings more facilities for
 you to handle HTTP requests and much more. I recommend reading the
 [Documentation](https://axios-http.com/docs/intro).
 
-### **Jest**
+### **Vitest**
 
-A library of automated tests for you to test your components and much more!. I
-recommend reading the
-[Documentation of Jest](https://jestjs.io/docs/getting-started).
+This is the newest super testing tool created especially for vite !! She is
+super fast and performant 😍 It builds on Chai's assertions, but is also Jest
+compatible! 😎 (That is, if you know Jest, you don't need to learn another
+testing framework. However, I strongly recommend reading the documentation which
+is very rich)
+
+[Documentation of Vitest](https://vitest.dev/).
 [Documentation of Testing Library](https://testing-library.com/docs/).
+
+### **Styled-Components**
+
+A super popular style component creation library! ✨ Create your stylized
+components easily with CSS in JS with amazing library
 
 ```bash
   git clone https://github.com/AugustoTI/template-vite-reactJS.git
@@ -47,10 +65,3 @@ recommend reading the
   yarn
   yarn start
 ```
-
-## ATTENTION!
-
-The `versel.json` file and the `public` folder are configuration files for the
-Versel and Netlify servers. <br> If you are going to post a project on Netlify,
-you can delete the `versel.json` file.<br> If you are hosting on Versel, you can
-delete the `public` folder.
