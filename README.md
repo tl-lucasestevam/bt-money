@@ -25,7 +25,9 @@ own.😎👍🏻
 > create a `settings.json` file with the following configuration check:
 
 ```json
-  "prettier.configPath": "./.prettierrc.js",
+{
+  "prettier.configPath": "./.prettierrc.js"
+}
 ```
 
 ### **ESLint**
@@ -60,8 +62,10 @@ A super popular style component creation library! ✨ Create your stylized
 components easily with CSS in JS with amazing library
 
 ```bash
-  git clone https://github.com/AugustoTI/template-vite-reactJS.git
-  cd template-vite-reactJS
+  git clone https://github.com/AugustoTI/template-vite-reactJS.git <project_name>
+  cd <project_name>
   yarn
   yarn start
 ```
+
+> don't forget to rename the project in `package.json`
