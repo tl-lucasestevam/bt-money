@@ -18,4 +18,8 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: ['./src/setup-test.js'],
   },
+  // To automatically open the server in the browser
+  server: {
+    open: '/',
+  },
 });
