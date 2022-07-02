@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'http://localhost:3000/api',
+  baseURL: 'https://bt-money-4ft3wah64-sergiolikescode.vercel.app/api',
 });
