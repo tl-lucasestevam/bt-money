@@ -10,10 +10,7 @@ import outcomeImg from '../../assets/saidas.svg';
 import * as S from './styles';
 
 const index = ({ isModalOpen, handleCloseModal }) => {
-  const { createTransaction, transactions } =
-    React.useContext(TransactionsContext);
-
-  console.log(transactions);
+  const { createTransaction } = React.useContext(TransactionsContext);
 
   const [isDisabled, setIsDisabled] = React.useState(true);
   const [type, setType] = React.useState('deposit');
