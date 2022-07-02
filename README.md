@@ -20,12 +20,17 @@ Desenvolvido durante o curso de React.js da Rockeseat.
 <img src="https://i.ibb.co/wWF9Hzc/image.png" alt="image" border="0" />
 
 <img src="https://i.ibb.co/5nkkBt0/image.png" alt="image" border="0">
+
 ## Deploy
 
 Para fazer o deploy desse projeto rode:
 
 ```bash
  git clone https://github.com/sergioLikesCode/bt-money
+```
+
+```bash
+ cd bt-money
 ```
 
 ```bash
