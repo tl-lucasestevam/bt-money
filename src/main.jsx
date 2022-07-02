@@ -43,6 +43,9 @@ createServer({
 
       return schema.create('transaction', data);
     });
+
+    this.namespace = '';
+    this.passthrough();
   },
 });
 
